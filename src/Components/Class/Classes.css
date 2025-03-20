@@ -1,0 +1,55 @@
+.class-container {
+    background-image: url("../assets/display/image2.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 120vh;
+    padding: 5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.class-text-container {
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    background: none;
+    border-radius: 10px;
+}
+
+.class-text-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    white-space: normal;
+}
+
+.class-text-p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    white-space: normal;
+}
+
+.class-btn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.class-btn-class {
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.class-btn-class:hover {
+    background-color: darkred;
+}

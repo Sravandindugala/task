@@ -1,0 +1,52 @@
+
+.about-container {
+  background-image: url("../assets/display/dancing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding: 8vh 5vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  color: white;
+  max-width: clamp(250px, 50%, 800px);
+  padding: 5vh;
+  background: none;
+  border-radius: 10px;
+}
+
+.text-container-heading h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: bold;
+}
+
+.text-p {
+  font-size: 1.2rem;
+  margin-bottom: 2vh;
+  padding-top: 2.5vh;
+  white-space: normal;
+}
+
+.text-button button {
+  width: 15vw;
+  max-width: 150px;
+  padding: 2vh;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 2.5vh;
+}
+
+.text-button button:hover {
+  background-color: darkred;
+}
