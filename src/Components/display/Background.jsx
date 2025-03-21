@@ -61,7 +61,7 @@ const Background = () => {
       <div className="hero-content">
         <h1>Balance Your Mind, Energize Your Body, Transform Your Life!</h1>
         <p>Move with purpose, breathe with intention, live with passion.</p>
-        <button className='hero-button' onClick={() => setShowPopup(true)}>Enquiry Now</button>
+        <button className='hero-button' onClick={() =>  (true)}>Enquiry Now</button>
       </div>
       {showPopup && (
         <div className="popup-overlay">
