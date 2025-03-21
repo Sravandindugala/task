@@ -21,13 +21,13 @@ const Perticulars = () => {
 
   const scrollLeft = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: -500, behavior: "smooth" });
+      scrollRef.current.scrollBy({ left: -350, behavior: "smooth" });
     }
   };
 
   const scrollRight = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: 500, behavior:"smooth" });
+      scrollRef.current.scrollBy({ left: 350, behavior:"smooth" });
     }
   };
 
